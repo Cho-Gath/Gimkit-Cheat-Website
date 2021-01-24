@@ -1,13 +1,20 @@
 body {
 	background-color: rgb(40, 40, 40);
+	font-family: Helvetica;
+	font-weight: Bold;
 }
 
 p {
 	display: table-cell;
 	vertical-align: middle;
 	padding-left: 20px;
-	
 }
+
+h2 {
+	text-align: center;
+}
+
+
 
 .title {
 	position: static;
@@ -19,6 +26,7 @@ p {
 	background-color: rgb(168, 168, 168);
 	overflow: hidden;
 	margin-top: 40px;
+
 }
 
 .thing {
@@ -34,7 +42,7 @@ p {
 	margin-top: 30px;
 	background-color: rgb(168, 168, 168);
 	height: 250px;
-	width: 600px;
+	width: 1000px;  <!-- was 600-->
 	
 	
 }
@@ -44,7 +52,7 @@ p {
 	margin-top: 30px;
 	margin-left: 30px;
 	background-color: rgb(200, 200, 200);
-	width: 540px;
+	width: 940px; 
 	height: 50px;
 	display: table;
 	border: solid;
